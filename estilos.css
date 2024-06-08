@@ -1,0 +1,50 @@
+body{
+background: #DAE2F8;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #D6A4A4, #DAE2F8);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #D6A4A4, #DAE2F8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+}
+
+.contenedorPrincipal{
+	max-width:10000px;
+	margin:0;
+}
+
+header{
+	background-color:#F5B7B1;
+	width:135%;
+	height:48px;
+}
+
+header nav ul li{
+	list-style-type:nome;
+	float:left;
+}
+
+header nav li a{
+	text-decoration:none;
+	padding:15px 20px 15px 20px;
+	display:inline-table;
+	color:#EC7063;
+}
+
+header nav ul li a:hover{
+	background-color:#FEF9E7;
+	color:Gold;
+	cursor:move;
+}
+
+.redess{
+	text-align:center;
+}
+
+.redess img{
+	cursor:help;
+	width:60px;
+	height:60px;
+}
